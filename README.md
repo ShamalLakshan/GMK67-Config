@@ -18,7 +18,7 @@ My configurations and start up program for Fn row on Linux
 [![asciicast](https://asciinema.org/a/cKdvhNqtxuG2XgehlSON0hLCZ.svg)](https://asciinema.org/a/cKdvhNqtxuG2XgehlSON0hLCZ)
 
 #### Test
-![Test](./assets/test.png)
+![Test](./linux-fn-row-fix/assets/test.png)
 
 ---
 
