@@ -12,5 +12,8 @@ Previous Track = ```['<Super>AudioLowerVolume']``` | Super(Win) + Knob Rotate Le
 Next Track = ```['<Super>AudioRaiseVolume']``` | Super(Win) + Knob Rotate Right
 Media Player = ```['<Super>AudioMute']``` | Super(Win) + Knob Click
 
+## Notice
+>  A reboot is required after setting the custom map for it to work properly!!!
+
 ## Setting Custom Knob Map on Ubuntu 
 [![asciicast](https://asciinema.org/a/6Ezy2esDnJFjn9SHBtKewWdI8.svg)](https://asciinema.org/a/6Ezy2esDnJFjn9SHBtKewWdI8)
