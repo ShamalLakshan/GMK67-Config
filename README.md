@@ -17,6 +17,9 @@ My configurations and start up program for Fn row on Linux
 #### Running the script
 [![asciicast](https://asciinema.org/a/cKdvhNqtxuG2XgehlSON0hLCZ.svg)](https://asciinema.org/a/cKdvhNqtxuG2XgehlSON0hLCZ)
 
+#### Test
+![Test](./assets/test.png)
+
 ---
 
 ## Custom Knob Mapping in Ubuntu

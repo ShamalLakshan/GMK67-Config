@@ -13,3 +13,7 @@
 
 ## Running the script
 [![asciicast](https://asciinema.org/a/cKdvhNqtxuG2XgehlSON0hLCZ.svg)](https://asciinema.org/a/cKdvhNqtxuG2XgehlSON0hLCZ)
+
+
+## Test
+![Test](./assets/test.png)
