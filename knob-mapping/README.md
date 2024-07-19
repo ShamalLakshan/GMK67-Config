@@ -11,3 +11,6 @@ Volume Up = ```['AudioRaiseVolume']``` | Knob Rotate Right
 Previous Track = ```['<Super>AudioLowerVolume']``` | Super(Win) + Knob Rotate Left
 Next Track = ```['<Super>AudioRaiseVolume']``` | Super(Win) + Knob Rotate Right
 Media Player = ```['<Super>AudioMute']``` | Super(Win) + Knob Click
+
+## Setting Custom Knob Map on Ubuntu 
+[![asciicast](https://asciinema.org/a/6Ezy2esDnJFjn9SHBtKewWdI8.svg)](https://asciinema.org/a/6Ezy2esDnJFjn9SHBtKewWdI8)
