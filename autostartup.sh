@@ -1,26 +1,16 @@
 #!/bin/bash
 
-cp ./gmk67fnrow.sh /opt/ && echo "gmkfnrow.sh copied to /opt/directory"
+echo "GMK67 Fn Row AutoFix at startup using systemd"
 
-nano /etc/systemd/system/gmk67.service && echo "Successfully created gmk67.service"
+cp ./assets/gmk67fnrow.sh /opt/ && echo "gmkfnrow.sh copied to /opt/ directory"
 
-cat << EOF > /etc/systemd/system/gmk67.service 
-[Unit]
-Description=Enable Fn Row of GMK67
-After=network.target
-[Service]
-ExecStart=/opt/gmk67fnrow.sh
-[Install]
-WantedBy=default.target
-EOF
-
-echo "Successfully wrote to gmk67.service"
+cp ./assets/gmk67.service /etc/systemd/system/ && echo "gmk67.service copied to /etc/systemd/system/"
 
 # Reload the systemd daemon to load the new service unit file
-systemctl daemon-reload
+systemctl daemon-reload && echo "Reloaded the system"
 
 # Enable the service to start at boot
-systemctl enable gmk67.service
+systemctl enable gmk67.service && echo "Enabled gmk67.service at boot"
 
 # Start the service
-systemctl start gmk67.service
+systemctl start gmk67.service && echo "Started gmk67.service"
