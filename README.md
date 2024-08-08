@@ -1,7 +1,7 @@
 # GMK67-Config
 My configurations and start up program for Fn row on Linux
 
-## Fn Row in Linux (Tested in Ubuntu 24.XX)
+## Fn Row in Linux (Tested in Ubuntu 24.XX, 20.XX)
 - [linux-fn-row-fix](./linux-fn-row-fix/) : Running the [autostart.sh](./linux-fn-row-fix/autostartup.sh) copies a Bash file ([gmk67fnrow.sh](./linux-fn-row-fix/assets/gmk67fnrow.sh)) to ```/opt/``` and make it execute at system bootup using systemd.
 
 #### To enable Fn Row of GMK67 on Ubuntu:
